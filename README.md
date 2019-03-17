@@ -16,7 +16,7 @@ Install using your favourite Vim plugin manager.
 
 Dependencies should be manually taken care of.
 
-- Vim 8.0+ to use the sync functionality
+- Vim 8.0+ to use the async functionality
 - pypinyin (only python3 version is supported, executable should be available in path)
 - linux (mac and windows are currently not supported)
 
