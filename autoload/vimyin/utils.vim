@@ -41,6 +41,7 @@ function! vimyin#utils#GetHanziCraft()
     " set options for the async job
     let l:options = {}
     let l:options.in_io = 'null'
-    let l:options.out_io = 'buffer'
+    let l:options.out_io = 'null'
+    let l:options.err_io = 'null'
     let job = job_start('/usr/bin/xdg-open '.l:url, l:options)
 endfunction
